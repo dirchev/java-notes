@@ -1,0 +1,27 @@
+<h1 id="-reverse-copy-fill-java">Методите reverse, copy и fill при работа с колекции в Java</h1>
+<p>В този урок ще покажем 3 метода, които са от класа <strong>Collections</strong></p>
+<ul>
+<li>reverse - разменя елементите на списък, като първият става последен, последният първи и т.н.</li>
+<li>copy - копира елементите от един списък в друг</li>
+<li>fill - запълва всички елементи от даден списък с дадена променлива</li>
+</ul>
+<h3 id="-">Подготовка</h3>
+<p>Като за начало ще създадем един масив от символи, след което ще от него ще създадем списък.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>Този път за копирането използваме</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p><em>Този начин за преобразуване на масив в списък е по-кратък, но не е за предпочитане да се използва в истински програми, защото често се случва да се получи грешка.</em></p>
+<p>Нека след това да принтираме нашият масив в конзолата.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>Методът <strong>output();</strong> все още не съществува. Него ще напишем в края на урока.</p>
+<h3 id="reverse-">reverse()</h3>
+<p>Методът <strong>reverse()</strong> е от класа <strong>Collections</strong> и приема като единствен параметър колекция, а след това разменя елементите в нея.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="copy-">copy()</h3>
+<p>Методът <strong>copy()</strong> е от класа <strong>Collections</strong> и приема два параметъра. Първият е списъкът, в който да се копират елементите, а вторият е списъкът, източник на информацията.</p>
+<p>Преди да копираме обаче ще трябва да направим нов списък. За целта ще направим втори масив с 3 празни клетки и от него ще направим новия списък.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>След това, използвайки методът <strong>copy()</strong>, ще копираме информацията от стария списък в новия.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="fill-">fill()</h3>
+<p>Методът <strong>fill()</strong> е от класа <strong>Collections</strong> и приема два параметъра. Първият е колекция, а сторият е променлива, с която да бъдат заменени всички елементи в колекцията.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-output-">методът за принтиране в конзолата output()</h3>
+<p>За да работи нашата програма, трябва да напишем и методът за принтиране на колекции в конзолата. Това ще направим с цикъл, който минава през всички елементи на колекцията и принтира техните стойности, след което принтира празен ред.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Краен резултат</h3>
+<p>Цялата програма изглецда така</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>ето го и изхода в конзолата</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor>

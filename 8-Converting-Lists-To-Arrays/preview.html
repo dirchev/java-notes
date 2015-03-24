@@ -1,0 +1,20 @@
+<h1 id="-">Конвертиране на списъци в масиви</h1>
+<p>Всеки списък си има полезни методи, накои от които видяхме в миналите уроци. Освен това списъците могат да променят броя на елементите си динамично. Но масивите са си масиви. Те също имат своите добри качества, по-лесни са за използване с цикли и т.н.</p>
+<p>В този урок ще разберем как да превръщаме списъците в масиви и обратното.</p>
+<h3 id="-">Подготовка</h3>
+<p>Като за начало ще направим един масив "stuff", който ще съдържа произволни стрингове.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Създаване на списък от масив</h3>
+<p>След като създадохме масив, ще вземем информацията от него и ще я направим в променлива от тип списък. Този път няма да използваме цикъл, а набор от няколко методи.</p>
+<p>Създаваме списък с име "thelist", както си го знаем от преди.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>При неговото инициализиране, ние можем да подадем списък, от който да се създаде новият лист</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>Това звучи малко нелогично, но има метод, който може да накара данните в масив да се интерпретират като данни от списък. Така можем в един ред на направим от масива списък.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Методи в списък</h3>
+<p>След като направихме напият списък, нека да добавим малко информация в него - нещо, което можем да правим само със списъци.</p>
+<p>Ще добавим низът "pumpking" в неговият край:</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>И "firstthing" в неговото начало.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Създаване на масив от списък</h3>
+<p>След като си поиграхме с методите на списъка, сега е време да го превърнем в масив. Ще ре-инициализираме старият масив "stuff", но съдържайки информацията от списъка.</p>
+<p><strong>thelist.toArray()</strong> превръща списъкът в масив, но за всеки масив трябва да бъде посочен размер и типове от данни, които съдържа. Това поставяме като мараметър на метода <strong>toArray()</strong>, като взимаме този размер чрез <strong>thelist.size()</strong></p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Краен резултат</h3>
+<p>След като имаме готов масив, може да завъртим един цикъл, за да го изведем на конзолата. Цялата програма изглежда така:</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor>

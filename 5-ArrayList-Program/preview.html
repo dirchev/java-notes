@@ -1,0 +1,16 @@
+<h1 id="-java">Програма с колекции в Java</h1>
+<p><strong>В този урок ще покажем как се търсят и изтриват елементи от колекция</strong></p>
+<p>Ще направим втора колекция, която да съдържа само някой от елементите на първата. След това ще направим собствен метод, който да  взима двете колекции и да изтрие елементите от първата, които се срещат и във втората. След дова ще принтираме новополучилата се колекция.</p>
+<h3 id="-">Създаване на втората колекция</h3>
+<p>Създаването на втората колекция ще направим отново с помощта на масив от низове, който ще обходим с цикъл, за да изградим новата колекция.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Идеята за новия метод</h3>
+<p>За да направим премахването на повтаряшите се елементи, ще направим отделен метод.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>Методът ни ще приема 2 параметъра: първата колекция с всички неща, и втория, който ще съдържа само неща, които ще премахваме.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><h3 id="-">Имплементация на новия метод</h3>
+<p>За да обходим първият лист този път ще използваме <strong>итератори</strong>.</p>
+<p><strong>Итераторите преминават през всеки елемент от колекцията.</strong></p>
+<p>Първо трябва да инициализираме отератор от първата колекция. Ще го кръстим "it":</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>След това ще направим и цикъла, който да преминава през всеки елемент чрез итератора. Използваме it.hasNext(), което проверява дали сме на последният елемнт от колекцията, към която е направен итератора.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>В цикъла трябва за всеки елемент от list1 да проверим дали се съдържа в list2. Ако това е вярно, трябва да изтрием този елемент от list1.</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor><p>Вече сме изтрили повтарящите се елементи, остава само да принтираме полученият резултат. Цялата програма изглежда така:</p>
+<atom-text-editor class="editor" callattachhooks="true" gutter-hidden="" data-grammar="text plain" data-encoding="utf8"><div class="underlayer"></div><div class="overlayer"></div></atom-text-editor>
